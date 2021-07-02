@@ -1,0 +1,12 @@
+
+    h1 {
+        color: maroon;
+        text-align: center;
+    }
+    p {
+        color: green; 
+        font-family: verdana;
+    }
+    blockquote { 
+        color: orange;
+    }

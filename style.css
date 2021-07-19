@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: Hilary;
+    src: url("https://hsheaffer.github.io/Shrikhand-Regular.ttf");
+}
+
+@font-face {
+    font-family: Sheaffer;
+    src: url("https://hsheaffer.github.io/Sriracha-Regular.ttf");
+}
+
+
+@media only screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+
+
+
+h1 {
+    color: maroon;
+    text-align: center;
+    font-family: Hilary;
+    
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-family: Hilary;
+}
+
+
+
+p {
+    color:Black; 
+    font-family: Sheaffer;
+}
+blockquote { 
+    color: maroon;
+    font-family: Hilary;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+   
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    
+ 
+}
+
+main {
+    
+}
+
+footer {
+    text-align: center;
+}
+
+
+

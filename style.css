@@ -1,0 +1,20 @@
+header
+{color:#660000}
+
+#container{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#left-column{
+    width: 700px;
+    float:left;
+    background:lightgoldenrodyellow
+}
+
+#right-column{
+    width: 260px;
+    float:left;
+    background: lightgoldenrodyellow;
+}
+

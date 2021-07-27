@@ -1,0 +1,84 @@
+header
+{color:#660000}
+
+@font-face {
+    font-family: Hilary;
+    src: url(https://hsheaffer.github.io/Shrikhand-Regular.ttf)
+}
+
+@font-face {
+    font-family: Sheaffer;
+    src:url(https://hsheaffer.github.io/Sriracha-Regular.ttf)
+}
+
+#container{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#left-column{
+    width: 700px;
+    float:left;
+    background:lightgoldenrodyellow
+}
+
+#right-column{
+    width: 260px;
+    float:left;
+    background: lightgoldenrodyellow;
+}
+
+header {
+font-family: Hilary;
+font-size: 25px;
+text-align: center;
+
+}
+
+p {
+    font-family: Sheaffer;
+    font-size: 18px;
+    text-align:center;
+}
+
+footer {
+    font-family: Sheaffer;
+    font-size: 12 px;
+    color: #660000;
+    text-align: center;
+    background-image: url(https://hsheaffer.github.io/footerbkgd.jpg);
+}
+
+img  {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+html {
+    background: url(https://hsheaffer.github.io/linen.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+blockquote {
+    font-family: Hilary;
+    text-align: center;
+    color: #cc6600;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: Hilary;
+    color: #cc6600;
+    text-align: center;
+
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}

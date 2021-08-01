@@ -1,0 +1,146 @@
+nav {
+  border-bottom: 8px solid black;
+  background-color: #cc6600;
+  height: 60px;
+}
+
+nav ul {
+list-style: none;
+float: right;
+margin-right: 5px;
+}
+
+nav ul li, nav ul li a {
+display: inline-flex;
+justify-content: start;
+line-height: 10px;
+top: 0px;
+font-size: 16px;
+font-family: Sheaffer;
+font-weight: bold;
+color: #660000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+nav li:hover {
+background-color: lightgoldenrodyellow;
+}
+
+.dropdown {
+float: right;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+display: inline-flex;
+top: 0px;
+font-size: 16px;  
+border: none;
+outline: none;
+color:#660000;
+font-family: Sheaffer;
+font-weight: bold;
+padding: 14px 16px;
+background-color: inherit;
+margin: 0px 0px;
+line-height: 10px;
+justify-content: start;
+}
+
+nav a:hover, .dropdown:hover .dropbtn {
+background-color: lightgoldenrodyellow;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #cc6600;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-size: 16px;
+font-family: Sheaffer;
+font-weight: bold;
+color: #660000;
+}
+
+.dropdown-content a {
+float: none;
+color: #660000;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: lightgoldenrodyellow;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+#toggler {
+margin: 0 40px 0 0;
+font-size: 26px;
+line-height: 70px;
+display: none;
+}
+
+#toggle {
+display: none;
+}
+
+.navigate {
+position: absolute;
+}
+
+.mob-only {
+display: none;
+}
+
+@media only screen and (max-width: 800px) {
+#toggler {
+  display: block;
+  cursor: pointer;
+}
+.navigate, .navigate ul {
+  float: left;
+  text-align: center;
+  width: 77.5%;
+  display: none;
+}
+.navigate ul li {
+  display: block;
+  border-bottom: 1px solid black;
+  margin: 0;
+  background-color: #cc6600;
+}
+#toggle:checked + .navigate, .navigate ul{
+  display: block;
+}
+.dropdown {
+  display: none;
+}
+}
+
+
+@media only screen and (max-width: 1024px) {
+.dropdown .dropbtn {
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
